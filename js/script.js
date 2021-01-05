@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', () => {
             days.innerHTML = getZero(t.days);
             hours.innerHTML = getZero(t.hours);
             minutes.innerHTML = getZero(t.minutes);
-            seconds.innerHTML = getZero();
+            seconds.innerHTML = getZero(t.seconds);
 
             if (t.total <= 0) {
                 clearInterval(timeInterval);
